@@ -54,8 +54,8 @@ print(c_ndarray_at)
 # 【問題3】ある要素の計算を実装
 
 c_ndarray_00_00 = a_ndarray[0, 0] * b_ndarray[0, 0]
-c_ndarray_00_10 = a_ndarray[0, 0] * b_ndarray[1, 0]
-c_ndarray_00_20 = a_ndarray[0, 0] * b_ndarray[2, 0]
+c_ndarray_00_10 = a_ndarray[0, 1] * b_ndarray[1, 0]
+c_ndarray_00_20 = a_ndarray[0, 2] * b_ndarray[2, 0]
 c_ndarray_0_0 = np.sum((c_ndarray_00_00, c_ndarray_00_10, c_ndarray_00_20))
 print(c_ndarray_0_0)
 
